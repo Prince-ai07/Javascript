@@ -27,6 +27,14 @@
 # JavaScript converts JSON into an object
 
 
+# Converting object in javascript to python: This is done by converting javascript to json, then sending the json to python, where python will convert the json to a dictionary
+# In javascript: let user = { name: "John", age: 25 };
+# let jsonData = JSON.stringify(user); jsonData is just text {"name":"John","age":25}
+
+# In python use  import json
+# data = json.loads(json_data) : now data becomes a python dictionary
+
+
 age = 20
 if age < 18:
     print("Program Guide: Not suitable for children under the age of 18")

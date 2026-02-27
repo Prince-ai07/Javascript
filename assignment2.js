@@ -1,12 +1,12 @@
-let distance = 100
+let distance = 1001
 
 if(distance >= 0 && distance <= 100){
     console.log("Pay 5 USD")
 }
-else if(distance > 100 && distance <= 500){
+else if(distance >= 101 && distance <= 500){
     console.log("Pay 10 USD")
 }
-else if(distance > 500 && distance <= 1000){
+else if(distance >= 501 && distance <= 1000){
     console.log("Pay 20 USD")
 }
 else{

@@ -37,3 +37,10 @@ const users = [
 const userNames = users.map(user => user.name);
 console.log(userNames);
 // Output: ["Andrew", "Bob", "Charlie"]
+
+console.log("===========================")
+// Anonymous functions
+// Just an example
+setTimeout(function() {
+    console.log("Runs after 1 seconds");
+}, 5000);

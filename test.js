@@ -43,4 +43,18 @@ console.log("===========================")
 // Just an example
 setTimeout(function() {
     console.log("Runs after 1 seconds");
-}, 5000);
+}, 1000);
+
+console.log("===========================")
+// Read on arrow functions with and without parameters
+// research on modules in Javascript
+import { add, multiply } from "./lesson4b.js";
+
+console.log(add(2, 3));
+console.log(multiply(4, 5));
+console.log("===========================")
+//Default Export
+import subtract from "./lesson4b.js";
+
+console.log(subtract(10, 3));
+//Default export does NOT use { }.    

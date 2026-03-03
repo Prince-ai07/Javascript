@@ -57,4 +57,4 @@ console.log("===========================")
 import subtract from "./lesson4b.js";
 
 console.log(subtract(10, 3));
-//Default export does NOT use { }.    
+//Default export does NOT use { }.  
